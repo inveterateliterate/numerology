@@ -1,0 +1,7 @@
+<h1>People Page</h1>
+
+<ul>
+	<% @people.each do |person| %>
+		<li><%= "#{person.first_name} #{person.last_name}, birthdate: #{person.birthdate}" %></li>
+<% end %>
+</ul>

@@ -3,7 +3,6 @@ get "/people" do
 	erb :"/people/index"
 end
 
-
 get "/people/new" do
 	@person = Person.new
 	erb :"/people/new"

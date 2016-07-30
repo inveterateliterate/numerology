@@ -1,0 +1,178 @@
+html, body {
+	font-family: "Montserrat", arial;
+}
+
+video {
+ position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("https://pixabay.com/static/uploads/photo/2015/09/05/23/55/stars-926427_960_720.jpg") no-repeat;
+    background-size: cover; 
+
+}
+
+/*Header*/
+.header {
+background: transparent;
+height: 60px;
+z-index: 2;
+}
+
+.header ul {
+padding-right: 60px;
+padding-top: 26px;
+}
+
+.header li {
+display: inline;
+font-size: 12px;
+padding: 12px;
+}
+
+.header li a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+}
+
+
+/*Main*/
+.main {
+color: #fff;
+text-align: center;
+}
+
+.main h1 {
+color: #fff;
+text-align: center;
+margin-top: 60px;
+}
+
+.main .birth-header {
+	margin-top: 160px;
+    text-align: left;
+}
+
+.main span {
+	font-size: 30px;
+	font-style: bold;
+}
+
+.main .container {
+margin-top: 80px;
+text-align: center;
+color: #fff;
+}
+
+.main .background-info {
+color: #fff;
+text-align: left;
+}
+
+.birth-msg {
+text-align: left;
+font-size: 22px;
+color: #fff;
+}
+
+.main h4 {
+text-align: center;
+font-size: 16px;
+}
+
+.main a {
+color: #000;
+}
+
+.again {
+    text-align: center;
+    margin-top: 20px;
+}
+/*Form*/
+
+
+
+.main .form-group {
+font-size: 12px;
+}
+
+.form-group label {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.submit {
+    text-align: right;
+}
+
+.btn-default {
+border-radius: 0;
+font-size: 12px;
+padding: 4px 6px;
+background-color: #fff;
+}
+
+.btn-again {
+border-radius: 0;
+font-size: 16px;
+padding: 4px;
+background-color: #fff;
+}
+
+/*People*/
+
+.ppl-table {
+
+text-align: center;
+width: 50%;
+margin: 20px auto;
+}
+
+th {
+border-bottom: 2px solid #fff;
+padding-bottom: 10px;
+text-align: center;
+color: #fff;
+vertical-align; middle;
+font-size: 16px;
+}
+
+td {
+border-bottom: 1px solid #fff;
+color: #fff;
+padding-top: 8px;
+padding-bottom: 8px;
+text-align: center;
+vertical-align: middle;
+font-size: 14px;
+}
+
+
+.ppl-table td a {
+text-decoration: underline;
+color: #fff;
+}
+
+
+.btn-danger {
+padding: 4px 8px;
+font-size: 12px;
+}
+
+
+/*Error*/
+
+.errors {
+    border: solid 1px #87CEEB;
+    color: #fff;
+    text-align: left;
+}

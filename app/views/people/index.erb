@@ -1,0 +1,43 @@
+<video autoplay muted loop>
+		<source src="public/css/img/346061251.mp4" type="video/mp4">
+	</video>
+
+	<div class="main">
+
+<h1>People</h1>
+
+<div class="container">
+
+<table class="ppl-table">
+<thead>
+<th>Name</th>
+<th>Birthdate</th>
+<th>Edit</th>
+<th>Delete</th>
+</thead>
+<tbody>
+	<% @people.each do |person| %>
+<tr>
+<td>
+	<a href="<%= "/people/#{person.id}" %>">
+	<%= "#{person.first_name} #{person.last_name}" %></a>
+</td>
+<td>
+	<%= "#{person.birthdate.strftime("%-d/%-m/%Y")}" %>
+</td>
+<td>
+	<a href="<%= "/people/#{person.id}/edit" %>">Edit</a>
+</td>
+<td>
+	<form action="<%= "/people/#{person.id}" %>" method="post">
+		<input type="hidden" name="_method" value="delete" />
+		<button class="btn btn-danger">Delete</button>
+	</form>
+</td>
+</tr>
+<% end %>
+</tbody>
+</table>
+
+</div>
+</div>

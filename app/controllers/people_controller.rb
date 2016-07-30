@@ -63,3 +63,4 @@ get "/people/:id" do
 	@message = "#{Person.birth_message(birth_path_num)}"
 	erb :"/people/show"
 end
+

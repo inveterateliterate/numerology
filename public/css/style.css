@@ -58,17 +58,13 @@ margin-top: 60px;
 }
 
 .main .birth-header {
-	margin-top: 160px;
-    text-align: left;
-}
-
-.main span {
-	font-size: 30px;
-	font-style: bold;
+margin-top: 60px;
+margin-left: 20px;
+text-align: left;
 }
 
 .main .container {
-margin-top: 80px;
+margin-top: 40px;
 text-align: center;
 color: #fff;
 }
@@ -76,6 +72,10 @@ color: #fff;
 .main .background-info {
 color: #fff;
 text-align: left;
+}
+
+.main .message {
+    margin: 30px 120px;
 }
 
 .birth-msg {
@@ -107,6 +107,7 @@ font-size: 12px;
 .form-group label {
     padding-right: 20px;
     font-size: 18px;
+    color: #fff;
 }
 
 .form-group input {

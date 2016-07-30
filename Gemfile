@@ -6,7 +6,7 @@ gem 'activerecord'
 
 gem 'pg'
 
-
+gem 'puma'
 gem 'rspec'
 
 

@@ -35,3 +35,5 @@ def people_form_method(person)
 	end
 	@method
 end
+
+end

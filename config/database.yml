@@ -1,3 +1,5 @@
+production:
+url: <%= ENV['DATABASE_URL'] %>
 development:
   adapter: postgresql
   database: numerology_development
@@ -5,8 +7,7 @@ development:
   host: localhost
   username: postgres
   password: Password
-
-    
+ 
 test:
   adapter: postgresql
   database: numerology_test

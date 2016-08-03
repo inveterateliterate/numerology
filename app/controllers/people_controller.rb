@@ -43,9 +43,10 @@ if @person.valid?
 	@person.save
 	redirect "/people/#{@person.id}"
 else
-	@person.errors.full_messages.each do |msg|
-		@errors = "#{@errors} #{msg}."
-	end
+	#@person.errors.full_messages.each do |msg|
+		@errors = @person.errors	
+		#{}"#{@errors} #{msg}."
+	#end
 	erb :"/people/edit"
 end
 end

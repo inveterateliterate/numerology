@@ -1,7 +1,9 @@
 html, body {
 	font-family: "Montserrat", arial;
+     background: url("img/stars-2.jpg") no-repeat center center;
+    background-size: cover; 
 }
-
+/*
 video {
  position: fixed;
     top: 50%;
@@ -15,15 +17,14 @@ video {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url("https://pixabay.com/static/uploads/photo/2015/09/05/23/55/stars-926427_960_720.jpg") no-repeat;
+    background: url("http://www.electrummagazine.com/wp-content/uploads/2012/07/milky-way_7-14-12.jpg") no-repeat;
     background-size: cover; 
-
 }
+*/
 
 /*Header*/
 .header {
 background: transparent;
-height: 60px;
 z-index: 2;
 }
 
@@ -54,7 +55,6 @@ text-align: center;
 .main h1 {
 color: #fff;
 text-align: center;
-margin-top: 60px;
 }
 
 .main .birth-header {
@@ -64,7 +64,7 @@ text-align: left;
 }
 
 .main .container {
-margin-top: 40px;
+margin-top: 60px;
 text-align: center;
 color: #fff;
 }
@@ -98,10 +98,13 @@ color: #000;
     margin-top: 20px;
 }
 /*Form*/
-
+.form {
+    text-align: center;
+}
 
 .main .form-group {
 font-size: 12px;
+text-align: center;
 }
 
 .form-group label {
@@ -175,8 +178,8 @@ font-size: 12px;
 
 /*Error*/
 
-.errors {
-    border: solid 1px #87CEEB;
-    color: #fff;
-    text-align: left;
+.error {
+    margin-top: 40px;
+    color: #87CEEB;
+    text-align: center;
 }

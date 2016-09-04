@@ -22,9 +22,7 @@ end
 	@person.save
 	redirect "/people/#{@person.id}"
 	else
-	@person.errors.full_messages.each do |msg|
-		@errors = "#{@errors} #{msg}."
-	end
+	@errors = @person.errors
 	erb :"/people/new"
 	end
 end
